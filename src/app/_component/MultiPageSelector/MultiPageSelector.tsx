@@ -1,30 +1,25 @@
-import React from "react";
-export type SinglePageSelectorPropsType = {
-  page: string;
-  pageIndex: number;
+export type MultiPageSelectorPropsType = {
   checked: boolean;
-  checkboxHandler: (position: number) => void;
+  checkboxHandler: any;
 };
-function SinglePageSelector({
-  page,
-  pageIndex,
+function MultiPageSelector({
   checked,
   checkboxHandler,
-}: SinglePageSelectorPropsType) {
+}: MultiPageSelectorPropsType) {
   return (
     <div className="relative flex items-center justify-between py-2 pl-[15px] pr-[22px] w-full">
       <label
-        htmlFor={page}
+        htmlFor={"all-page"}
         className="peer cursor-pointer text-sm font-normal text-charcoalblack"
       >
-        {page}
+        All pages
       </label>
       <input
         type="checkbox"
-        name={page}
-        id={page}
+        name={"all-page"}
+        id={"all-page"}
         checked={checked}
-        onChange={() => checkboxHandler(pageIndex)}
+        onChange={() => checkboxHandler()}
         className="peer appearance-none flex items-center justify-center cursor-pointer border border-divider
         rounded-md h-[23px] w-[23px] hover:opacity-60
         outline-none shrink-0
@@ -52,4 +47,4 @@ function SinglePageSelector({
   );
 }
 
-export { SinglePageSelector };
+export default MultiPageSelector;
