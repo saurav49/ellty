@@ -40,7 +40,7 @@ function MultiPageSelector({
         <path
           d="M0.68 6.592L6.22879 11.5272C6.24925 11.5454 6.28055 11.5437 6.29899 11.5235L16.32 0.519997"
           stroke={checked ? "#fff" : "#878787"}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </svg>
     </div>
