@@ -12,4 +12,4 @@ function Button({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default Button;
+export { Button };

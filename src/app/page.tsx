@@ -1,10 +1,10 @@
 "use client";
-import Button from "./_component/Button/Button";
+import { PageSelector } from "./_component";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white">
-      <Button>Done</Button>
+      <PageSelector />
     </main>
   );
 }

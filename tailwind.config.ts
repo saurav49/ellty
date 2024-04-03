@@ -17,6 +17,7 @@ const config: Config = {
         brand: "#FFCE22",
         brandActive: "#FFD84D",
         charcoalblack: "#1F2128",
+        divider: "#CDCDCD",
       },
       keyframes: {
         btnbounce: {
