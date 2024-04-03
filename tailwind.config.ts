@@ -18,6 +18,9 @@ const config: Config = {
         brandActive: "#FFD84D",
         charcoalblack: "#1F2128",
         divider: "#CDCDCD",
+        silver: "#BDBDBD",
+        blue: "#2469F6",
+        lightblue: "#5087F8",
       },
       keyframes: {
         btnbounce: {
@@ -32,9 +35,6 @@ const config: Config = {
       animation: {
         btnbounce: "btnbounce 200ms ease-in-out",
         wiggle: "wiggle 200ms ease-in-out",
-      },
-      fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

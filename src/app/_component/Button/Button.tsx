@@ -5,9 +5,7 @@ function Button({ children }: { children: React.ReactNode }) {
       type="button"
       onClick={() => console.log("btn clicked")}
     >
-      <span className="relative font-montserrat text-sm font-normal">
-        {children}
-      </span>
+      <span className="relative text-sm font-normal">{children}</span>
     </button>
   );
 }
